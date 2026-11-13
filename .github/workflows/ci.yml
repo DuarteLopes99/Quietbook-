@@ -16,8 +16,8 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         python: ["3.12"]
         include:
-          - os: ubuntu-latest
-            python: "3.9"   # the oldest Python the README promises
+          - os: ubuntu-24.04
+            python: "3.10"   # the oldest Python the README promises
     runs-on: ${{ matrix.os }}
     defaults:
       run:

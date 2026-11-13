@@ -14,7 +14,7 @@ Built around Portuguese bank exports (column names like `Data Operação`, `Desc
 
 ## Quick start
 
-You need **Python 3.9+** (standard library only). **Node 18+** is only for the tests and notebooks.
+You need **Python 3.10+** (standard library only). **Node 18+** is only for the tests and notebooks.
 
 **macOS / Linux**
 

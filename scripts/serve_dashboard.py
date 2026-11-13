@@ -34,7 +34,7 @@ Four things this does that `python3 -m http.server` alone doesn't:
 Usage:
     python scripts/serve_dashboard.py [--port 8792] [--no-browser]
 
-Works the same on macOS, Linux and Windows (Python 3.8+, standard library only).
+Works the same on macOS, Linux and Windows (Python 3.10+, standard library only).
 """
 
 import argparse

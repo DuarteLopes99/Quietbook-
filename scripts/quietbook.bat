@@ -1,6 +1,6 @@
 @echo off
 rem Double-clickable launcher for Quietbook (Windows): starts the local server
-rem and opens the dashboard. Needs Python 3.8+ from python.org (standard library only).
+rem and opens the dashboard. Needs Python 3.10+ from python.org (standard library only).
 setlocal
 cd /d "%~dp0.."
 
