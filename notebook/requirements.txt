@@ -1,0 +1,4 @@
+# Only for the notebooks in this folder. The dashboard itself needs none of this.
+pandas
+matplotlib
+jupyterlab

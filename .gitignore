@@ -1,0 +1,28 @@
+# Personal financial data never goes in git. Everything in data/ is ignored
+# except the encrypted store (downloaded from the dashboard's Data tab).
+# scripts/check_privacy.py enforces the same list in the pre-commit hook and CI.
+data/*
+!data/.gitkeep
+!data/transactions.csv.enc
+
+# Bank exports and plaintext tables, wherever they are dropped.
+*.csv
+*.xls
+*.xlsx
+*.xlsm
+*.ods
+*.dec
+
+# Jupyter keeps a copy of the outputs here.
+.ipynb_checkpoints/
+
+# Secrets (FINANCE_PASSPHRASE and the like) live in the environment, never in a file here.
+.env
+.env.*
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini

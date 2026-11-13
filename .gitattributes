@@ -1,0 +1,11 @@
+# Same bytes on every OS: LF in the repo and in the checkout, so a Windows
+# clone with core.autocrlf=true can't turn the shell launchers into CRLF.
+* text=auto eol=lf
+
+# Windows-only launcher: CRLF.
+*.bat text eol=crlf
+
+# Never touched.
+*.woff2 binary
+*.enc binary
+*.png binary
